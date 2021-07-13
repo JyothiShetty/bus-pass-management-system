@@ -6,9 +6,10 @@ html {
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    height: 100vh;
+    /* height: 100%; */
     background-image: url(img/download.jpg);
     background-size: cover;
+    background:fixed;
 }
 
 .navbar {
@@ -27,8 +28,8 @@ body {
 }
 
 .landing-div {
-    background: white url("img/download.jpg") no-repeat scroll center;
-    height: 100vh;
+    background: white url("img/download.jpg") no-repeat center;
+    height: 80%;
     background-size: cover;
     color: white;
 }
@@ -89,6 +90,7 @@ body {
 .bus {
     padding-top: 280px;
     margin-top: 2rem;    
+    border-radius: 10px;
     /* margin-right: 2rem; */
 }
 
