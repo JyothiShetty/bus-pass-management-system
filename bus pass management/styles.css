@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    height: 100vh;
+    background-image: url(img/download.jpg);
+    background-size: cover;
+}
+
+.navbar {
+    padding: 22px !important;
+    font-size: 18px;
+}
+
+.navbar .nav-brand {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.top-nav-collapse {
+    background-color: black;
+    padding: 0.75rem !important;
+}
+
+.landing-div {
+    background: white url("img/download.jpg") no-repeat scroll center;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+}
+.landing-wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    /* padding: 120px;
+    padding-left: 600px; */
+}
+
+.caption {
+    width: 100%;
+    /* max-width: 100%; */
+    position: relative;  
+    top: 38%;
+    color: white;
+    z-index: 1;
+    text-transform: uppercase;
+   /* margin-top: 50px; */
+   padding-top: 350px;
+
+}
+
+.caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 2rem;
+}
+
+.caption h3 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+    text-transform: uppercase;
+}
+
+.card {
+    margin-top: 8rem;
+}
+
+.card-login {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 10px;
+    /* margin-top: 10rem; */
+}
+
+.renewal {
+    padding-top: 100px;
+    /* padding-left: 250px; */
+}
+
+.bus {
+    padding-top: 280px;
+    margin-top: 2rem;    
+    /* margin-right: 2rem; */
+}
+
+footer {
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
